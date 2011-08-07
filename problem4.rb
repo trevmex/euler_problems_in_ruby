@@ -81,8 +81,8 @@ module Euler
 
       def find_palindrome(n, i, j, palin)
         p = (n/i).truncate
-    ip = i*p
-    jp = j*p
+        ip = i*p
+        jp = j*p
         palin += ip+jp
         ib = i/@base
         jb = j*@base
